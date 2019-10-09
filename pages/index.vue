@@ -73,6 +73,9 @@
           >
             Continue
           </v-btn>
+          <v-btn color="primary" @click="showSnackbar">
+            Show snackbar
+          </v-btn>
         </v-card-actions>
       </v-card>
     </v-flex>
@@ -88,5 +91,11 @@ export default {
     Logo,
     VuetifyLogo
   },
+
+  methods: {
+    showSnackbar () {
+      this.$notifier.showMessage({ content: 'Hello, snackbar', color: 'info' })
+    }
+  }
 }
 </script>

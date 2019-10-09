@@ -85,11 +85,18 @@
     >
       <span>&copy; 2019</span>
     </v-footer>
+    <Snackbar></Snackbar>
   </v-app>
 </template>
 
 <script>
+import Snackbar from '~/components/Snackbar'
+
 export default {
+  components: {
+    Snackbar
+  },
+
   data () {
     return {
       clipped: false,
