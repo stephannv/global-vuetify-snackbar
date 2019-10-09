@@ -1,0 +1,19 @@
+{
+  "name": "global-vuetify-snackbar",
+  "version": "1.0.0",
+  "description": "Simple global Vuetify&#39;s snackbar implementation",
+  "author": "stephannv",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "nuxt": "^2.0.0"
+  },
+  "devDependencies": {
+    "@nuxtjs/vuetify": "^1.0.0"
+  }
+}
